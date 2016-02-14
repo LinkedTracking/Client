@@ -1,3 +1,12 @@
+#=======================
+# Project specific
+#=======================
+# browserify bundle
+public/js/bundle.js
+
+#=======================
+# General files
+#=======================
 # Logs
 logs
 *.log
