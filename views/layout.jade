@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title= title
+    link(rel='stylesheet', href='/css/site.css')
+  body
+    nav(class='navbar navbar-fixed-top navbar-dark bg-inverse')
+      a(class='navbar-brand', href='/') SeriousList
+      div(class='nav navbar-nav')
+        a(class='nav-item nav-link', href='/series') Series
+        a(class='nav-item nav-link', href='/movies') Movies
+    div(class='container-fluid')
+      block content
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js')
