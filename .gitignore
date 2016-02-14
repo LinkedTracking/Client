@@ -7,6 +7,9 @@ public/js/bundle.js
 #=======================
 # General files
 #=======================
+# Vim
+*.swp
+
 # Logs
 logs
 *.log
