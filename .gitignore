@@ -3,6 +3,8 @@
 #=======================
 # browserify bundle
 public/js/bundle.js
+public/css/site.css
+bin
 
 #=======================
 # General files
